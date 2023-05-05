@@ -1,0 +1,13 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.errorprone.util.ErrorProneTokens$CommentSavingTokenizer (file:/Users/daniel/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_check_api/2.13.1/251914b562b8e814e8fe4bd178c51af8217b05e4/error_prone_check_api-2.13.1.jar) to field com.sun.tools.javac.parser.JavaTokenizer.reader
+WARNING: Please consider reporting this to the maintainers of com.google.errorprone.util.ErrorProneTokens$CommentSavingTokenizer
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+/Users/daniel/Documents/NJIT/WPI-Research/experiments-live/icalavailable/src/main/java/org/plumelib/icalavailable/ICalAvailable.java:397: warning: [value:contracts.precondition] precondition of oneDayAvailable is not satisfied.
+      available.addAll(oneDayAvailable(start_date, calendars));
+                                      ^
+  found   : org.plumelib.icalavailable.ICalAvailable.days is @IntRange(from=-2147483647, to=2147483647)
+  required: org.plumelib.icalavailable.ICalAvailable.days is @IntRangeFromPositive
+Note: /Users/daniel/Documents/NJIT/WPI-Research/experiments-live/icalavailable/src/main/java/org/plumelib/icalavailable/ICalAvailable.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning

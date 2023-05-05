@@ -81,7 +81,7 @@ checkerFramework {
     '-ArequirePrefixInWarningSuppressions',
     '-AwarnUnneededSuppressions',
     '-Ainfer=ajava',
-    '-Aajava=/tmp/icalavailable-wpi/'
+    '-Aajava=/tmp/WPITEMP-icalavailable'
   ]
 }
 
